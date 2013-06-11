@@ -15,12 +15,19 @@ group :assets do
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
+    gem 'twitter-bootstrap-rails', '~> 2.2.7'
 
   gem 'uglifier', '>= 1.0.3'
 
 end
 
 gem 'jquery-rails'
+gem 'haml'
+gem 'haml-rails'
+gem 'therubyracer'
+gem 'formtastic'
+gem 'formtastic-bootstrap'
+gem 'mongoid'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
